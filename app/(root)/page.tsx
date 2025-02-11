@@ -4,7 +4,7 @@ export default function Home() {
   console.log("Hello, World!");
   return (
     <>
-    <h1>wassupniggger</h1>
+    <h1>home page</h1>
     <Hello />
     </>
   );
