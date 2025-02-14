@@ -1,3 +1,5 @@
+import SearchForm from "@/app/components/SearchForm";
+
 export default function Home() {
   console.log("Hello, World!");
   return (
@@ -7,6 +9,9 @@ export default function Home() {
           <p className="sub-heading">
             Submit Ideas, Vote on Pitches and Get Noticed in Virtual Competitions.
           </p>
+
+          <SearchForm />
+          
         </section>
 
     
