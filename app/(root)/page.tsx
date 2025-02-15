@@ -1,7 +1,11 @@
 import SearchForm from "@/app/components/SearchForm";
 
-export default function Home() {
+export default async function Home({ searchParams }: {searchParams: Promise<{query?: string}>}) {
+
   console.log("Hello, World!");
+
+  const { query } = await searchParams;
+
   return (
     <> 
         <section className="pink_container">
@@ -10,7 +14,7 @@ export default function Home() {
             Submit Ideas, Vote on Pitches and Get Noticed in Virtual Competitions.
           </p>
 
-          <SearchForm />
+          <SearchForm query={query}/>
           
         </section>
 
