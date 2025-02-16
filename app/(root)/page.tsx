@@ -12,7 +12,7 @@ export default async function Home({ searchParams }: {searchParams: Promise<{que
     author: {_id:1,name:"John Doe"},
     _id : "1",
     description : "This is a description",
-    image : "https://i.ytimg.com/an_webp/fqabW3WRUbw/mqdefault_6s.webp?du=3000&sqp=CLjOwb0G&rs=AOn4CLCMoc3xVwtMxETYSq4aaOQCycvGJw",
+    image : 'https://i.ytimg.com/an_webp/fqabW3WRUbw/mqdefault_6s.webp?du=3000&sqp=CJjsxr0G&rs=AOn4CLAmRd9DKYFrPJgh-HpS8Cyx4XgHzQ',
     catagory : "Technology",
     title : "Startup 1"
   }]
