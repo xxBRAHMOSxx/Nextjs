@@ -7,12 +7,12 @@ export default async function Home({ searchParams }: {searchParams: Promise<{que
 
   const { query } = await searchParams;
   const posts = [{
-    _createdAt: new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric',year: 'numeric'  }),
+    _createdAt: new Date(),
     views : 100,
     author: {_id:1,name:"John Doe"},
     _id : "1",
     description : "This is a description",
-    image : 'https://i.ytimg.com/an_webp/fqabW3WRUbw/mqdefault_6s.webp?du=3000&sqp=CJjsxr0G&rs=AOn4CLAmRd9DKYFrPJgh-HpS8Cyx4XgHzQ',
+    image : './image.png',
     catagory : "Technology",
     title : "Startup 1"
   }]
