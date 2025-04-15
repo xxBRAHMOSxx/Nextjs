@@ -141,7 +141,7 @@ export type Startup = {
   };
   views?: number;
   description?: string;
-  catagory?: string;
+  category?: string;
   image?: string;
   pitch?: string;
 };

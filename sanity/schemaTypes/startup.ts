@@ -31,9 +31,9 @@ export const startup = defineType({
             type:'text',
         }),
         defineField({
-            name:'catagory',
+            name:'category',
             type:'string',
-            validation:(Rule)=>Rule.min(1).max(20).required().error('Please enter a catagory between 1 and 20 characters'),
+            validation:(Rule)=>Rule.min(1).max(20).required().error('Please enter a category between 1 and 20 characters'),
         }),
         defineField({
             name:'image',
